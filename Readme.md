@@ -1,4 +1,4 @@
-# Restaurant Staff Roster Planner – Week 1
+# 🍽️ Restaurant Staff Roster Planner – Week 1
 
 ## 📌 Overview
 
@@ -109,6 +109,40 @@ This Week 1 implementation establishes the foundation of the Restaurant Staff Ro
 * Stored Supabase credentials in `.env` file
 * Loaded environment variables using python-dotenv
 * Configured `.gitignore` to protect sensitive data
+
+---
+
+## 🚀 How to Run the Project
+
+### 🔹 Start Backend
+
+```bash id="bkstart"
+cd backend
+venv\Scripts\activate
+uvicorn main:app --reload
+```
+
+Open in browser:
+
+```id="bkurl"
+http://127.0.0.1:8000/docs
+```
+
+---
+
+### 🔹 Start Frontend
+
+```bash id="frstart"
+cd frontend
+npm install
+npm start
+```
+
+Open in browser:
+
+```id="frurl"
+http://localhost:3000
+```
 
 ---
 
